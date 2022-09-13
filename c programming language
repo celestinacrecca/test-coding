@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    float filipino, english, tle, science, math, result;
+    printf("Input the average grade in filipino:");
+    scanf("%f, &filipino");
+    printf("Input the average grade in english:");
+    scanf("%f &english");
+    printf("Input the average grade in tle:");
+    scanf("%f, &tle);
+    printf("Input the average grade in science:");
+    scanf("%f, &science");
+    printf("Input the average grade in math:");
+    scanf("%f, &math");
+    result= filipino + english + tle + science + math, result/5;
+    printf("Your average is %.2f", result);
+    
+    return 0;
+}
